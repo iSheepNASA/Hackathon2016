@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Robos</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span><a href="index.html"><img src="images/iSheep.jpg" width="140px" height="160px" /></a></span>
+						</header>
+                        
+
+						
+                    <!--body-->
+                    
+						<hr />
+						<h2>Call the police form</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="number" id="number" placeholder="Number of sheeps stolen/lost" />
+							</div>
+							<div class="field">
+								<input type="text" name="idnumber" id="idnumber" placeholder="Id of your stolen/lost sheep(insert between commas)" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="stolen" id="issue">
+										<option value="stole">Stolen 	</option>
+										<option value="lost">Lost</option>
+						
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Extra information, detailed explanation of the issue" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="Geo" name="Geo" /><label for="Geo">Use Geolocation</label>
+							</div>
+							<div class="field">
+											
+								
+							<ul class="actions">
+								<li><a href="#" class="button">Send</a></li>
+							</ul>
+						</form>
+						<hr />
+						
+
+                <!-- Footer -->
+                <footer>
+                            <ul class="actions">
+                                <li><a href="seguridad.html" class="button">Back</a></li>
+                            </ul>    
+						</footer>
+					</section>
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Jane Doe</li>
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
